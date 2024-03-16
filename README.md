@@ -11,21 +11,20 @@ Practica que consiste en hacer una api  para manejar registro de horas pagadas a
 
 ## Features
 
-- (get) /employee
--> obtener todos los empleados registrados
-(get) /employee/:id
+- (get) /employee -> obtener todos los empleados registrados
+- (get) /employee/:id
 -> obtener un empleado enviando el id
-(get) /employee/:id/hours
+- (get) /employee/:id/hours
 -> obtiene todas las horas trabajadas por un empleado, enviando el id
-(get) /employee/:id/salary
+- (get) /employee/:id/salary
 ->  obtiene el salario a pagar basandose en el total de horas por el precio de hora del empleado
-(post) /employee
+- (post) /employee
 -> agrega un empleado nuevo
-(post) /employee/:id/hours
+- (post) /employee/:id/hours
 -> agrega un registro nuevo de horas usando el id del empleado para asociar las horas
-(put) /employee/:id
+- (put) /employee/:id
 -> actualiza la informacion del empleado (solo el fullname y pricePerhours)
-(delete) / employee
+- (delete) / employee
 -> borra un empleado y todo el registro de las horas trabajadas
 
 
